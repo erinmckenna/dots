@@ -1,0 +1,35 @@
+window#waybar.bottom {
+	/*background: #99aaaa;*/
+	font: 10px 'Fira Code';
+	padding: 0px;
+	background: transparent;
+}
+.bottom .modules-right {
+	background: #99aaaa;
+	padding: 10px;
+	margin: 5px;
+}
+.bottom .modules-center {
+	background: #f3f3f3;
+	color: #999;
+	padding: 0px 10px;
+	margin-bottom: 5px;
+}
+#workspaces button {
+	margin: 5px 0px 2px 5px;
+	padding: 0px;
+	border-radius: 0px;
+	color: #ddd;
+	font-size: 10px;
+	background: #3f4949;
+}
+#workspaces button.focused {
+	background: #849393;
+}
+#battery {
+	padding-right: 10px;
+}
+window#waybar.left {
+	background:none;
+	padding: 2px;
+}
